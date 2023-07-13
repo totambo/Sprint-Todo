@@ -25,7 +25,7 @@ const NewTodo = ({lista, setLista, theme, fontColor, filter}) => {
   
   return (
     
-      <ul className={`${theme} ${fontColor}`}>
+      <ul className={`${theme === "light" ? "ulLight" : "ulDark"} ${fontColor}`}>
         {lista.map(item => {
           if (filter === "Completed" && !item.complete) {
             return null;

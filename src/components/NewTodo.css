@@ -4,7 +4,6 @@ ul {
     padding: 0;
     border: 1px solid rgba(39, 38, 38, 0.678);
     border-radius: 15px;
-   
 }
 li {
     display: flex;
@@ -47,6 +46,12 @@ li {
 }
 .taskDone{
     text-decoration:line-through;
+}
+.ulLight {
+background-color: hsl(0, 0%, 98%);;
+}
+.ulDark {
+background-color: hsl(235, 24%, 19%);
 }
 
 @media (max-width: 1280px) {

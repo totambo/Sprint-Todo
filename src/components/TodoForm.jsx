@@ -16,10 +16,10 @@ return (
         <input 
         value={inputValue} 
         onChange={(event) => setInputValue(event.target.value)} 
-        className={`todoInput ${theme} ${fontColor}`}  
+        className={`todoInput ${theme === "light" ? "ulLight" : "ulDark"} ${fontColor}`}  
         type="text" placeholder="Create a new todo..."
         />
-        <button className={`create ${theme} ${fontColor}`} type="submit" onClick={(e) => {e.preventDefault(); newTask()}}>Create</button>
+        <button className={`create ${theme === "light" ? "ulLight" : "ulDark"} ${fontColor}`} type="submit" onClick={(e) => {e.preventDefault(); newTask()}}>Create</button>
     </form>
 )}
 
