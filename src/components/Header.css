@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+   
+    height: 200px;
+    width: 100vw;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.themeButton {
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.darkBack {
+    background-color: rgb(29, 29, 29);
+    background-image: url("src/assets/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+  }
+
+@media (max-width: 1280px) {
+
+header {
+        height: 200px;
+}}

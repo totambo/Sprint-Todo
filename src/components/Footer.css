@@ -1,0 +1,25 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.createdBy {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 10px;
+}
+.name {
+    font-weight: bolder;
+}
+.fontWhite {
+    color: white;
+}
+.fontBlack {
+    color: black;
+}
+footer p {
+    font-size: 14px;
+}

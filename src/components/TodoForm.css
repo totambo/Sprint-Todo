@@ -1,0 +1,28 @@
+.todoInput {
+    width: 50vw;
+    height: 60px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.create {
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    margin-left: -70px;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+
+.todoInput {
+    width: 80vw;
+}
+
+
+
+}

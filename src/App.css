@@ -1,0 +1,33 @@
+
+body {
+  width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+}
+Header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dark {
+  background-color: hsl(235, 21%, 11%);
+}
+.light {
+  background-color: hsl(0, 0%, 98%);
+}
+body.dark {
+  background-image: url("src/assets/bg-desktop-dark.jpg");
+}
+body.light {
+  background-image: url("src/assets/bg-desktop-light.jpg");
+}
+
+@media (max-width: 1366px) {
+
+body.dark {
+      background-image: url("src/assets/bg-mobile-dark.jpg");
+  }
+body.light {
+      background-image: url("src/assets/bg-mobile-light.jpg");
+  }}
