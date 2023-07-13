@@ -1,7 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
 import './NewTodo.css';
-
 
 const NewTodo = ({lista, setLista, theme, fontColor, filter}) => {
   const checkIcon = <img src="src/assets/icon-check.svg" alt="" className="checked"/>

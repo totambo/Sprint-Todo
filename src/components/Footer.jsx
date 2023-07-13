@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = ({theme, fontColor}) => {
+const Footer = ({fontColor}) => {
     
     return (
        <footer className={fontColor}>

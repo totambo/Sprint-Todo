@@ -1,6 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
-import { v4 } from "uuid";
 import './TodoForm.css';
 
 const TodoForm = ({theme,inputValue, lista, setLista, setInputValue, fontColor}) => {
